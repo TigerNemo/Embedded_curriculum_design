@@ -1,0 +1,81 @@
+Dependencies for Project 'Washing', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Source\main.c)(0x61A70C90)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I.\Include-I C:\keil472\ARM\RV31\INC-I C:\keil472\ARM\CMSIS\Include-I C:\keil472\ARM\Inc\Philips-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (I:\嵌入式课设\Washing\Include\lpc213x.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\TypeDef.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\delay.h)(0x61A22DD0)
+I (I:\嵌入式课设\Washing\Include\led.h)(0x61A32C68)
+I (I:\嵌入式课设\Washing\Include\timer.h)(0x61A6F3DE)
+I (I:\嵌入式课设\Washing\Include\digitaltube.h)(0x61A374F2)
+I (I:\嵌入式课设\Washing\Include\CountDown.h)(0x61A20522)
+I (I:\嵌入式课设\Washing\Include\function.h)(0x61A4A07E)
+I (I:\嵌入式课设\Washing\Include\beep.h)(0x61A22BEA)
+I (I:\嵌入式课设\Washing\Include\motor.h)(0x61A7047C)
+I (I:\嵌入式课设\Washing\Include\key.h)(0x61A6ED46)
+I (I:\嵌入式课设\Washing\Include\uart0.h)(0x61A7140E)
+F (.\Source\delay.c)(0x61A32D74)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I.\Include-I C:\keil472\ARM\RV31\INC-I C:\keil472\ARM\CMSIS\Include-I C:\keil472\ARM\Inc\Philips-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (I:\嵌入式课设\Washing\Include\delay.h)(0x61A22DD0)
+I (I:\嵌入式课设\Washing\Include\TypeDef.h)(0x5C12749E)
+F (.\Source\countdown.c)(0x61A20542)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I.\Include-I C:\keil472\ARM\RV31\INC-I C:\keil472\ARM\CMSIS\Include-I C:\keil472\ARM\Inc\Philips-o .\objects\countdown.o --omf_browse .\objects\countdown.crf --depend .\objects\countdown.d)
+I (I:\嵌入式课设\Washing\Include\CountDown.h)(0x61A20522)
+I (I:\嵌入式课设\Washing\Include\TypeDef.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\timer.h)(0x61A6F3DE)
+I (I:\嵌入式课设\Washing\Include\led.h)(0x61A32C68)
+I (I:\嵌入式课设\Washing\Include\lpc213x.h)(0x5C12749E)
+F (.\Source\function.c)(0x61A5B474)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I.\Include-I C:\keil472\ARM\RV31\INC-I C:\keil472\ARM\CMSIS\Include-I C:\keil472\ARM\Inc\Philips-o .\objects\function.o --omf_browse .\objects\function.crf --depend .\objects\function.d)
+I (I:\嵌入式课设\Washing\Include\function.h)(0x61A4A07E)
+I (I:\嵌入式课设\Washing\Include\TypeDef.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\digitaltube.h)(0x61A374F2)
+I (I:\嵌入式课设\Washing\Include\lpc213x.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\CountDown.h)(0x61A20522)
+I (I:\嵌入式课设\Washing\Include\timer.h)(0x61A6F3DE)
+I (I:\嵌入式课设\Washing\Include\led.h)(0x61A32C68)
+I (I:\嵌入式课设\Washing\Include\beep.h)(0x61A22BEA)
+I (I:\嵌入式课设\Washing\Include\motor.h)(0x61A7047C)
+I (I:\嵌入式课设\Washing\Include\key.h)(0x61A6ED46)
+F (.\Source\led.c)(0x61A376E0)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I.\Include-I C:\keil472\ARM\RV31\INC-I C:\keil472\ARM\CMSIS\Include-I C:\keil472\ARM\Inc\Philips-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (I:\嵌入式课设\Washing\Include\led.h)(0x61A32C68)
+I (I:\嵌入式课设\Washing\Include\lpc213x.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\TypeDef.h)(0x5C12749E)
+F (.\Source\timer.c)(0x61A7043C)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I.\Include-I C:\keil472\ARM\RV31\INC-I C:\keil472\ARM\CMSIS\Include-I C:\keil472\ARM\Inc\Philips-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (I:\嵌入式课设\Washing\Include\timer.h)(0x61A6F3DE)
+I (I:\嵌入式课设\Washing\Include\TypeDef.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\led.h)(0x61A32C68)
+I (I:\嵌入式课设\Washing\Include\lpc213x.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\CountDown.h)(0x61A20522)
+F (.\Source\digitaltube.c)(0x61A6EB74)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I.\Include-I C:\keil472\ARM\RV31\INC-I C:\keil472\ARM\CMSIS\Include-I C:\keil472\ARM\Inc\Philips-o .\objects\digitaltube.o --omf_browse .\objects\digitaltube.crf --depend .\objects\digitaltube.d)
+I (I:\嵌入式课设\Washing\Include\digitaltube.h)(0x61A374F2)
+I (I:\嵌入式课设\Washing\Include\lpc213x.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\TypeDef.h)(0x5C12749E)
+F (.\Source\beep.c)(0x61A6E90C)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I.\Include-I C:\keil472\ARM\RV31\INC-I C:\keil472\ARM\CMSIS\Include-I C:\keil472\ARM\Inc\Philips-o .\objects\beep.o --omf_browse .\objects\beep.crf --depend .\objects\beep.d)
+I (I:\嵌入式课设\Washing\Include\beep.h)(0x61A22BEA)
+I (I:\嵌入式课设\Washing\Include\lpc213x.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\TypeDef.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\delay.h)(0x61A22DD0)
+F (.\Source\motor.c)(0x61A6F6B4)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I.\Include-I C:\keil472\ARM\RV31\INC-I C:\keil472\ARM\CMSIS\Include-I C:\keil472\ARM\Inc\Philips-o .\objects\motor.o --omf_browse .\objects\motor.crf --depend .\objects\motor.d)
+I (I:\嵌入式课设\Washing\Include\motor.h)(0x61A7047C)
+I (I:\嵌入式课设\Washing\Include\lpc213x.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\TypeDef.h)(0x5C12749E)
+F (.\Source\key.c)(0x61A6EE54)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I.\Include-I C:\keil472\ARM\RV31\INC-I C:\keil472\ARM\CMSIS\Include-I C:\keil472\ARM\Inc\Philips-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (I:\嵌入式课设\Washing\Include\key.h)(0x61A6ED46)
+I (I:\嵌入式课设\Washing\Include\TypeDef.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\lpc213x.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\delay.h)(0x61A22DD0)
+F (.\Source\uart0.c)(0x61A716F0)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I.\Include-I C:\keil472\ARM\RV31\INC-I C:\keil472\ARM\CMSIS\Include-I C:\keil472\ARM\Inc\Philips-o .\objects\uart0.o --omf_browse .\objects\uart0.crf --depend .\objects\uart0.d)
+I (I:\嵌入式课设\Washing\Include\uart0.h)(0x61A7140E)
+I (I:\嵌入式课设\Washing\Include\TypeDef.h)(0x5C12749E)
+I (I:\嵌入式课设\Washing\Include\lpc213x.h)(0x5C12749E)
+I (C:\Program Files\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+F (.\Include\delay.h)(0x61A22DD0)()
+F (.\Include\led.h)(0x61A32C68)()
+F (.\Include\lpc213x.h)(0x5C12749E)()
+F (.\Include\timer.h)(0x61A6F3DE)()
+F (.\Include\TypeDef.h)(0x5C12749E)()
+F (.\Include\digitaltube.h)(0x61A374F2)()
+F (.\Include\beep.h)(0x61A22BEA)()
+F (.\Include\function.h)(0x61A4A07E)()
+F (.\Include\CountDown.h)(0x61A20522)()
+F (.\Include\motor.h)(0x61A7047C)()
+F (.\Include\key.h)(0x61A6ED46)()
+F (.\Include\uart0.h)(0x61A7140E)()
+F (.\Source\VIC_INT_CTRL.s)(0x556A983E)(--cpu ARM7TDMI -g --apcs=interwork -I C:\keil472\ARM\RV31\INC-I C:\keil472\ARM\CMSIS\Include-I C:\keil472\ARM\Inc\Philips--list .\listings\vic_int_ctrl.lst --xref -o .\objects\vic_int_ctrl.o --depend .\objects\vic_int_ctrl.d)
+F (.\Source\Startup.s)(0x559CDAC0)(--cpu ARM7TDMI -g --apcs=interwork -I C:\keil472\ARM\RV31\INC-I C:\keil472\ARM\CMSIS\Include-I C:\keil472\ARM\Inc\Philips--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)

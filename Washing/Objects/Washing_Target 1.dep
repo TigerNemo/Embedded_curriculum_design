@@ -1,0 +1,82 @@
+Dependencies for Project 'Washing', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\Source\main.c)(0x61A8B93C)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I .\Include-ID:\softs\Keil_v5\ARM\RV31\INC-ID:\softs\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\Include\lpc213x.h)(0x5C12749E)
+I (.\Include\TypeDef.h)(0x5C12749E)
+I (.\Include\delay.h)(0x61A22DD0)
+I (.\Include\led.h)(0x61A32C68)
+I (.\Include\timer.h)(0x61A72E2E)
+I (.\Include\digitaltube.h)(0x61A374F2)
+I (.\Include\CountDown.h)(0x61A20522)
+I (.\Include\function.h)(0x61A4A07E)
+I (.\Include\beep.h)(0x61A22BEA)
+I (.\Include\motor.h)(0x61A7047C)
+I (.\Include\key.h)(0x61A6ED46)
+I (.\Include\uart0.h)(0x61A71B5C)
+F (.\Source\delay.c)(0x61A32D74)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I .\Include-ID:\softs\Keil_v5\ARM\RV31\INC-ID:\softs\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (.\Include\delay.h)(0x61A22DD0)
+I (.\Include\TypeDef.h)(0x5C12749E)
+F (.\Source\countdown.c)(0x61A20542)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I .\Include-ID:\softs\Keil_v5\ARM\RV31\INC-ID:\softs\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\countdown.o --omf_browse .\objects\countdown.crf --depend .\objects\countdown.d)
+I (.\Include\CountDown.h)(0x61A20522)
+I (.\Include\TypeDef.h)(0x5C12749E)
+I (.\Include\timer.h)(0x61A72E2E)
+I (.\Include\led.h)(0x61A32C68)
+I (.\Include\lpc213x.h)(0x5C12749E)
+F (.\Source\function.c)(0x61A86AF8)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I .\Include-ID:\softs\Keil_v5\ARM\RV31\INC-ID:\softs\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\function.o --omf_browse .\objects\function.crf --depend .\objects\function.d)
+I (.\Include\function.h)(0x61A4A07E)
+I (.\Include\TypeDef.h)(0x5C12749E)
+I (.\Include\digitaltube.h)(0x61A374F2)
+I (.\Include\lpc213x.h)(0x5C12749E)
+I (.\Include\CountDown.h)(0x61A20522)
+I (.\Include\timer.h)(0x61A72E2E)
+I (.\Include\led.h)(0x61A32C68)
+I (.\Include\beep.h)(0x61A22BEA)
+I (.\Include\motor.h)(0x61A7047C)
+I (.\Include\key.h)(0x61A6ED46)
+F (.\Source\led.c)(0x61A376E0)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I .\Include-ID:\softs\Keil_v5\ARM\RV31\INC-ID:\softs\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (.\Include\led.h)(0x61A32C68)
+I (.\Include\lpc213x.h)(0x5C12749E)
+I (.\Include\TypeDef.h)(0x5C12749E)
+F (.\Source\timer.c)(0x61A86ADC)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I .\Include-ID:\softs\Keil_v5\ARM\RV31\INC-ID:\softs\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (.\Include\timer.h)(0x61A72E2E)
+I (.\Include\TypeDef.h)(0x5C12749E)
+I (.\Include\led.h)(0x61A32C68)
+I (.\Include\lpc213x.h)(0x5C12749E)
+I (.\Include\CountDown.h)(0x61A20522)
+F (.\Source\digitaltube.c)(0x61A6EB74)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I .\Include-ID:\softs\Keil_v5\ARM\RV31\INC-ID:\softs\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\digitaltube.o --omf_browse .\objects\digitaltube.crf --depend .\objects\digitaltube.d)
+I (.\Include\digitaltube.h)(0x61A374F2)
+I (.\Include\lpc213x.h)(0x5C12749E)
+I (.\Include\TypeDef.h)(0x5C12749E)
+F (.\Source\beep.c)(0x61A6E90C)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I .\Include-ID:\softs\Keil_v5\ARM\RV31\INC-ID:\softs\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\beep.o --omf_browse .\objects\beep.crf --depend .\objects\beep.d)
+I (.\Include\beep.h)(0x61A22BEA)
+I (.\Include\lpc213x.h)(0x5C12749E)
+I (.\Include\TypeDef.h)(0x5C12749E)
+I (.\Include\delay.h)(0x61A22DD0)
+F (.\Source\motor.c)(0x61A6F6B4)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I .\Include-ID:\softs\Keil_v5\ARM\RV31\INC-ID:\softs\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\motor.o --omf_browse .\objects\motor.crf --depend .\objects\motor.d)
+I (.\Include\motor.h)(0x61A7047C)
+I (.\Include\lpc213x.h)(0x5C12749E)
+I (.\Include\TypeDef.h)(0x5C12749E)
+F (.\Source\key.c)(0x61A6EE54)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I .\Include-ID:\softs\Keil_v5\ARM\RV31\INC-ID:\softs\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (.\Include\key.h)(0x61A6ED46)
+I (.\Include\TypeDef.h)(0x5C12749E)
+I (.\Include\lpc213x.h)(0x5C12749E)
+I (.\Include\delay.h)(0x61A22DD0)
+F (.\Source\uart0.c)(0x61A8B95B)(-c --cpu ARM7TDMI -g -O1 --apcs=interwork --split_sections -I .\Include-ID:\softs\Keil_v5\ARM\RV31\INC-ID:\softs\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="536"-o .\objects\uart0.o --omf_browse .\objects\uart0.crf --depend .\objects\uart0.d)
+I (.\Include\uart0.h)(0x61A71B5C)
+I (.\Include\TypeDef.h)(0x5C12749E)
+I (.\Include\lpc213x.h)(0x5C12749E)
+I (D:\softs\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+F (.\Include\delay.h)(0x61A22DD0)()
+F (.\Include\led.h)(0x61A32C68)()
+F (.\Include\lpc213x.h)(0x5C12749E)()
+F (.\Include\timer.h)(0x61A72E2E)()
+F (.\Include\TypeDef.h)(0x5C12749E)()
+F (.\Include\digitaltube.h)(0x61A374F2)()
+F (.\Include\beep.h)(0x61A22BEA)()
+F (.\Include\function.h)(0x61A4A07E)()
+F (.\Include\CountDown.h)(0x61A20522)()
+F (.\Include\motor.h)(0x61A7047C)()
+F (.\Include\key.h)(0x61A6ED46)()
+F (.\Include\uart0.h)(0x61A71B5C)()
+F (.\Source\VIC_INT_CTRL.s)(0x556A983E)(--cpu ARM7TDMI -g --apcs=interwork -ID:\softs\Keil_v5\ARM\RV31\INC-ID:\softs\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 536"--list .\listings\vic_int_ctrl.lst --xref -o .\objects\vic_int_ctrl.o --depend .\objects\vic_int_ctrl.d)
+F (.\Source\Startup.s)(0x559CDAC0)(--cpu ARM7TDMI -g --apcs=interwork -ID:\softs\Keil_v5\ARM\RV31\INC-ID:\softs\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 536"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)

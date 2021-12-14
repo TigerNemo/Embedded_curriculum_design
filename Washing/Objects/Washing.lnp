@@ -1,0 +1,18 @@
+--cpu ARM7TDMI
+".\objects\main.o"
+".\objects\delay.o"
+".\objects\countdown.o"
+".\objects\function.o"
+".\objects\led.o"
+".\objects\timer.o"
+".\objects\digitaltube.o"
+".\objects\beep.o"
+".\objects\motor.o"
+".\objects\key.o"
+".\objects\uart0.o"
+".\objects\vic_int_ctrl.o"
+".\objects\startup.o"
+--strict --scatter ".\Objects\Washing.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Washing.map" -o .\Objects\Washing.axf
