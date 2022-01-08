@@ -8,7 +8,7 @@ IDE：MDK-ARM PLUS Version:5.36.0.0
 这个是串口调试助手，可以直接使用。
 
 ## Washing
-Washing是工程文件  
+Washing：工程文件  
 Include：里面是包含头文件。  
 Listing、Object：是编译链接过程中生成的中间文件。  
 Source：里面放的是源代码
